@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139150451-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-139150451-1');
+    </script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -15,6 +23,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +58,7 @@
       <ul>
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="downloads.html"><i class="bx bx-download"></i> <span>Downloads</span></a></li>
+        <li><a href="#downloads"><i class="bx bx-download"></i> <span>Downloads</span></a></li>
         <li><a href="#screenshots"><i class="bx bx-screenshot"></i> <span>Screenshots</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -62,7 +73,7 @@
       <div class="social-links">
         <a href="https://github.com/MalluOS" class="github"><i class="bx bxl-github"></i></a>
         <a href="https://t.me/malluoss" class="telegram"><i class="bx bxl-telegram"></i></a>
-        <a href="downloads.html" class="telegram"><i class="bx bx-download"></i></a>
+        <a href="#downloads" class="telegram"><i class="bx bx-download"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -94,6 +105,25 @@
       </div>
     </section><!-- End About Section -->
     
+    <section id="downloads" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Downloads</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card col-md-4 p-3">
+            <a href="down.html?device=osprey&ver=ten">
+                <img class="card-img-top" src="assets/img/osprey.png" alt="osprey">
+                <div class="card-footer text-center">
+                    <h4>Moto G 2015</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+        </section><!-- End Downloads Section -->
+ 
     <!-- ======= Screenshot Section ======= -->
     <section id="screenshots" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
@@ -163,7 +193,6 @@
       </div>
     </section><!-- End Screenshot Section -->
 
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -198,7 +227,6 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
